@@ -1,0 +1,54 @@
+@charset "utf-8";
+body{
+	
+	width: 60%;
+	margin: auto;
+	
+}
+h1{
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+	
+}
+h2{
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;
+	
+}
+p{
+	font-family: 'Pathway Gothic One', sans-serif;
+	
+	text-align: right;
+	font-size: 18pt;
+}
+/* NAV BAR */
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	width: 60%;	
+}
+
+li{
+	
+	float: right;
+}
+
+li a{
+	
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a.current{
+	
+	background-color: red;
+}
+
+li a:hover{
+	
+	background-color: aqua;
+}

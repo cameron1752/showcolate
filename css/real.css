@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding-top: 120px;
+	background-color: maroon;
+}
+h1, h2{
+	font-family: 'Trochut', cursive;
+}
+
+h5{
+	font-family: 'Trochut', cursive;
+}
+
+p{
+	font-family: 'Bellota', cursive;	
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+	background-color: tan;
+}
+
+li a{
+	color: white;
+}
+
+.pics{
+margin: auto;    
+    display: block;
+}
